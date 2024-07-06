@@ -8,6 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        // Primary
+        "pink": "hsl(322, 100%, 66%)",
+        "light-pink": "hsl(321, 100%, 78%)",
+        "light-red": "hsl(0, 100%, 63%)",
+        // Neutral
+        "very-dark-cyan": "hsl(192, 100%, 9%)",
+        "very-pale-blue": "hsl(207, 100%, 98%)",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        open: ["Open Sans", "sans-serif"],
+      },
+      fontWeight: {
+        copy: "400",
+        semibold: "600",
+        bold: "700"
+      },
+      screens: {
+        mobile: "375px",
+        desktop: "1440px",
+      },
       backgroundImage: {
         // "sample-bg": "/tsugini" // basepath of github pages
       },

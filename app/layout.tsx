@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins, Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["700"] });
+const open = Open_Sans({subsets: ["latin"], weight: ["400", "600", "700"]})
 
 export const metadata: Metadata = {
   title: "次に(tsugini) | FScode",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex min-h-screen flex-col`}>
+      <body className={`${open.className} flex min-h-screen flex-col`}>
         {children}
       </body>
     </html>
