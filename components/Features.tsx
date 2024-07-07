@@ -30,7 +30,7 @@ export default function Features() {
           </p>
         </div>
       </div>
-      <div className="mt-[56px] bg-[url(/images/bg-section-top-mobile-2.svg)]  bg-contain bg-top bg-no-repeat pt-[103px]">
+      <div className="mt-[56px] bg-hud-very-pale-blue bg-[url(/images/bg-section-top-mobile-2.svg)] bg-contain bg-top bg-no-repeat pt-[103px] pb-12">
         <div className="pb-16 bg-hud-very-pale-blue pt-4">
           <div className="h-[200px] bg-hud-very-pale-blue bg-[url('/images/illustration-your-users.svg')] bg-contain bg-center bg-no-repeat" />
           <div className="px-7 pt-[6px] text-center text-hud-very-dark-cyan">
