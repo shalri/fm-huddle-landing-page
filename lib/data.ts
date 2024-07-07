@@ -26,7 +26,7 @@ export const featuresCopy = [
 
 export const footerCopy = {
   phone: "+1-543-123-4567",
-  email: "example@huddle.com",
+  email: "example@company.com",
   contactCopy:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.",
   newsletterCopy:
