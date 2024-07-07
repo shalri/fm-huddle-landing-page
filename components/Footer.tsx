@@ -19,7 +19,9 @@ export default function Footer() {
           <div className="">
             <ul className="">
               {socialLinks.map((link)=> (
-              <a href={link.url} className="">{link.page}</a>
+                <li className="" key={link.page}>
+                  <a href={link.url} className="">{link.page}</a>
+                </li>
               ))}
             </ul>
           </div>

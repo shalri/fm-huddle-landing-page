@@ -5,16 +5,22 @@ export const heroCopy = {
 
 export const featuresCopy = [
   {
+    title: "grow-together",
     heading: "Grow Together",
     copy: "Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.",
+    bg: "bg-[url(/images/illustration-grow-together.svg)]",
   },
   {
+    title: "flowing-conversations",
     heading: "Flowing Conversations",
     copy: "You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.",
+    bg: "bg-[url(/images/illustration-flowing-conversation.svg)]",
   },
   {
+    title: "your-users",
     heading: "Your Users",
     copy: "It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.",
+    bg: "bg-[url(/images/illustration-your-users.svg)]",
   },
 ];
 
