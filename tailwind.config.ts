@@ -10,12 +10,12 @@ const config: Config = {
     extend: {
       colors: {
         // Primary
-        "pink": "hsl(322, 100%, 66%)",
-        "light-pink": "hsl(321, 100%, 78%)",
-        "light-red": "hsl(0, 100%, 63%)",
+        "hud-pink": "hsl(322, 100%, 66%)",
+        "hud-light-pink": "hsl(321, 100%, 78%)",
+        "hud-light-red": "hsl(0, 100%, 63%)",
         // Neutral
-        "very-dark-cyan": "hsl(192, 100%, 9%)",
-        "very-pale-blue": "hsl(207, 100%, 98%)",
+        "hud-very-dark-cyan": "hsl(192, 100%, 9%)",
+        "hud-very-pale-blue": "hsl(207, 100%, 98%)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

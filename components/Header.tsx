@@ -1,16 +1,17 @@
+import Image from "next/image";
+
 export default function Header() {
   return (
-    <header className="mb-6 w-full bg-zinc-200 py-3">
-      <nav className="container mx-auto flex items-center justify-between p-3">
-        <h1 className="text-lg font-bold">次に (tsugini)</h1>
-        <h2>
-          <a
-            href="https://github.com/shalri/soko"
-            className="font-semibold text-zinc-700 hover:text-zinc-800"
-          >
-            tsugini &middot; repo
+    <header className="">
+      <nav className="flex items-center justify-between px-6 py-6">
+        <div className="">
+          <a href="/" className="">
+            <Image src="./images/logo.svg" alt="logo" width={98} height={24} className="object-contain" />
           </a>
-        </h2>
+        </div>
+        <button className="rounded-full border border-hud-pink px-[14px] py-1 text-[10px] font-bold text-hud-pink">
+          Try It Free
+        </button>
       </nav>
     </header>
   );
