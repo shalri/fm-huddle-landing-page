@@ -12,7 +12,7 @@ export default function Button({
   return (
     <button
       className={cn(
-        "rounded-full bg-hud-pink px-10 py-3 text-xs font-bold text-white",
+        "sm:text-[20px] sm:py-8 sm:px-[102px] rounded-full bg-hud-pink px-10 py-3 text-xs font-bold text-white",
         addStyle,
       )}
     >
