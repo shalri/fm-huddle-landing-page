@@ -1,3 +1,5 @@
+import { FaFacebookSquare, FaInstagram, FaTwitter } from 'react-icons/fa';
+
 export const heroCopy = {
   heading: "Build The Community Your Fans Will Love",
   body: "Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.",
@@ -37,13 +39,16 @@ export const socialLinks = [
   {
     page: "Facebook",
     url: "#",
+    icon: "FaFacebookSquare",
   },
   {
     page: "Instagram",
     url: "#",
+    icon: "FaInstagramSquare",
   },
   {
     page: "Twitter",
     url: "#",
+    icon: "FaTwitterSquare",
   },
-];
+] as const;

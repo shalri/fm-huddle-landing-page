@@ -1,6 +1,15 @@
 import Image from "next/image";
 import { footerCopy } from "@/lib/data";
 import { socialLinks } from "@/lib/data";
+import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
+import React from "react";
+import { IconType } from "react-icons";
+
+const iconMap: { [key: string]: IconType } = {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaTwitterSquare,
+};
 
 export default function Footer() {
   const { phone, email, newsletterCopy, contactCopy } = footerCopy;
@@ -29,17 +38,22 @@ export default function Footer() {
             // className="h-[50px] w-[120px] bg-hud-very-dark-cyan"
           />
           <p className="mt-4 text-[0.91rem] leading-[1.60]">{contactCopy}</p>
-          <p className="bg-[url(/images/icon-phone.svg)] mt-[42px] bg-no-repeat bg-[left_center] text-[0.91rem] pl-10">
+          <p className="mt-[42px] bg-[url(/images/icon-phone.svg)] bg-[left_center] bg-no-repeat pl-10 text-[0.91rem]">
             Phone: {phone}
           </p>
-          <p className="bg-[url(/images/icon-email.svg)] mt-4 bg-no-repeat bg-[left_center] text-[0.91rem] pl-10">{email}</p>
+          <p className="mt-5 bg-[url(/images/icon-email.svg)] bg-[left_center] bg-no-repeat pl-10 text-[0.8575rem]">
+            {email}
+          </p>
 
-          <div className="">
-            <ul className="">
+          <div className="mt-12 pb-10">
+            <ul className="gap-x-[15px] flex">
               {socialLinks.map((link) => (
                 <li className="" key={link.page}>
                   <a href={link.url} className="">
-                    {link.page}
+                    {iconMap[link.icon] &&
+                      React.createElement(iconMap[link.icon], {
+                        className: "h-[25px] w-[25px]",
+                      })}
                   </a>
                 </li>
               ))}
