@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function Hero() {
   const { heading, body } = heroCopy;
   return (
-    <section className=" bg-[url(/images/bg-section-top-mobile-1.svg)] bg-no-repeat bg-contain bg-[bottom_center] sm:pb-[300px] pb-[130px] sm:bg-[url(/images/bg-section-top-desktop-1.svg)]">
+    <section className=" bg-[url(/images/bg-section-top-mobile-1.svg)] bg-no-repeat bg-contain bg-[bottom_center] sm:pb-[285px] pb-[130px] sm:bg-[url(/images/bg-section-top-desktop-1.svg)]">
       <div className="sm:max-w-[1316px] sm:mx-auto sm:mt-[148px] mt-[88px] px-6 text-center">
         <h1 className="sm:text-[3rem] font-poppins text-2xl font-bold leading-[1.55] text-hud-very-dark-cyan">
           {heading}
@@ -23,7 +23,7 @@ export default function Hero() {
             <h3 className="text-[15px] text-black/50 sm:text-2xl mt-1">Communities Formed</h3>
           </div>
           <div className="mt-[74px] sm:mt-0 text-center">
-            <p className="inline-block bg-[url(/images/icon-messages.svg)] sm:bg-[length:38px_33px] bg-[length:26px_22px] bg-[left_4px_top_20px] sm:bg-[left_8px_top_20px] bg-no-repeat sm:pt-12 pt-10 font-open text-[54px] font-bold text-hud-very-dark-cyan sm:text-[6rem]">
+            <p className="inline-block bg-[url(/images/icon-messages.svg)] sm:bg-[length:38px_33px] bg-[length:26px_22px] bg-[left_4px_top_20px] sm:bg-[left_10px_top_20px] bg-no-repeat sm:pt-12 pt-10 font-open text-[54px] font-bold text-hud-very-dark-cyan sm:text-[6rem]">
               2.7m+
             </p>
             <h3 className="text-[15px] text-black/50 sm:text-2xl mt-1">Messages Sent</h3>
