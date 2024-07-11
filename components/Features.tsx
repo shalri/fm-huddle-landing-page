@@ -1,6 +1,3 @@
-import { featuresCopy } from "@/lib/data";
-import { cn } from "@/lib/utils";
-
 export default function Features() {
   return (
     <section className="">
@@ -36,7 +33,7 @@ export default function Features() {
       </div>
       <div className="mt-[56px] sm:bg-[url(/images/bg-section-top-desktop-2.svg)] bg-[url(/images/bg-section-top-mobile-2.svg)] bg-contain bg-top bg-no-repeat pt-[103px]">
         <div className="sm:bg-hud-very-pale-blue sm:pt-[85px]">
-        <div className="sm:mx-auto sm:flex sm:max-w-[1256px] sm:items-center sm:justify-evenly">
+        <div className="sm:pb-10 sm:mx-auto sm:flex sm:max-w-[1256px] sm:items-center sm:justify-evenly">
           <div className="h-[200px] bg-hud-very-pale-blue bg-[url('/images/illustration-your-users.svg')] bg-contain bg-center bg-no-repeat sm:h-[400px] sm:w-[50%]" />
           <div className="order-first sm: px-7 sm:pl-7 text-center text-hud-very-dark-cyan sm:w-[50%] sm:text-left">
             <h2 className="mt-[78px] font-poppins text-xl font-bold sm:mt-4 sm:text-[2.5rem]">

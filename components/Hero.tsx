@@ -22,6 +22,7 @@ export default function Hero() {
             </p>
             <h3 className="text-[15px] text-black/50 sm:text-2xl mt-1">Communities Formed</h3>
           </div>
+
           <div className="mt-[74px] sm:mt-0 text-center">
             <p className="inline-block bg-[url(/images/icon-messages.svg)] sm:bg-[length:38px_33px] bg-[length:26px_22px] bg-[left_4px_top_20px] sm:bg-[left_10px_top_20px] bg-no-repeat sm:pt-12 pt-10 font-open text-[54px] font-bold text-hud-very-dark-cyan sm:text-[6rem]">
               2.7m+
