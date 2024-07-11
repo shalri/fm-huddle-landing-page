@@ -4,6 +4,7 @@ import { socialLinks } from "@/lib/data";
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
 import React from "react";
 import { IconType } from "react-icons";
+import Newsletter from "./Newsletter";
 
 const iconMap: { [key: string]: IconType } = {
   FaFacebookSquare,
@@ -16,21 +17,7 @@ export default function Footer() {
   return (
     <footer className="bg-hud-very-dark-cyan">
       <div className="px-7 text-white sm:mx-auto sm:mt-[100px] sm:justify-between sm:max-w-[1236px] sm:flex sm:px-5">
-        <div className="sm:order-last sm:max-w-[520px] sm:flex-grow">
-          <h3 className="mt-[60px] sm:mt-0 text-xl font-bold uppercase sm:text-2xl">Newsletter</h3>
-          <p className="mt-4 text-[0.91rem] leading-[1.62] sm:max-w-[350px]">{newsletterCopy}</p>
-          <form
-            action="submit"
-            className="mt-[34px] flex flex-col items-end gap-y-4 sm:w-full sm:mt-[40px]"
-          >
-            <div className="flex w-full gap-x-9">
-              <input type="text" className="w-full rounded-md p-3 flex-grow" />
-              <button className="w-[50%] rounded-md bg-hud-pink p-3 font-bold">
-                Subscribe
-              </button>
-            </div>
-          </form>
-        </div>
+        <Newsletter newsletterCopy={newsletterCopy} />
         <div className="mt-[100px] sm:max-w-[300px] sm:mt-0">
           <div className="relative h-[36px] w-[200px] sm:h-[38px] sm:w-[240px]">
             <Image
@@ -55,7 +42,7 @@ export default function Footer() {
                   <a href={link.url} className="">
                     {iconMap[link.icon] &&
                       React.createElement(iconMap[link.icon], {
-                        className: "h-[25px] w-[25px] sm:h-[35px] sm:w-[35px]",
+                        className: "h-[25px] w-[25px] sm:h-[35px] sm:w-[35px] hover:fill-cyan-400 transition-all duaration-300",
                       })}
                   </a>
                 </li>

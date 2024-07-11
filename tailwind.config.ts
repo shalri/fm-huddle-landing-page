@@ -24,7 +24,7 @@ const config: Config = {
       fontWeight: {
         copy: "400",
         semibold: "600",
-        bold: "700"
+        bold: "700",
       },
       screens: {
         mobile: "375px",
@@ -35,6 +35,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
 export default config;
