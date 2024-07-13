@@ -4,3 +4,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glow-button {
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 12px rgba(255, 182, 193, 0.8); /* Adjust the size and color as needed */
+}

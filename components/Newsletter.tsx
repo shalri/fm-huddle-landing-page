@@ -1,5 +1,7 @@
 "use client";
+import { emailStatusAnimation } from "@/lib/animations";
 import { cn } from "@/lib/utils";
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 
@@ -62,12 +64,24 @@ export default function Newsletter({ newsletterCopy }: NewsletterProps) {
           </button>
         </div>
       </form>
+      <AnimatePresence>
       {errors.email && (
-        <p className="mt-2 text-red-500 text-sm">{errors.email.message as string}</p>
+        <motion.p 
+            key="error"
+            variants={emailStatusAnimation}
+            initial="hidden"
+            animate="visible"
+            className="mt-2 text-red-500 text-sm">{errors.email.message as string}</motion.p>
       )}
       {isSubmitSuccessful && Object.keys(errors).length === 0 && (
-        <p className="mt-2 text-green-500 text-sm">Thank you for subscribing!</p>
+        <motion.p 
+            key="success"
+            variants={emailStatusAnimation}
+            initial="hidden"
+            animate="visible"
+            className="mt-2 text-green-500 text-sm">Thank you for subscribing!</motion.p>
       )}
+      </AnimatePresence>
     </div>
   );
 }

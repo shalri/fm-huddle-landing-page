@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${open.className} flex min-h-screen flex-col`}>
+      <body className={`${open.className} flex min-h-screen flex-col scroll-smooth`}>
         {children}
       </body>
     </html>
