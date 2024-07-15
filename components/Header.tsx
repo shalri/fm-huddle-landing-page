@@ -8,12 +8,12 @@ export default function Header() {
     <header className="px-6 ">
       <nav className="flex items-center justify-between py-6 sm:mx-auto sm:max-w-[1316px] sm:py-20">
         <div className="relative h-[24px] w-[98px] sm:ml-[14px] sm:h-[38px] sm:w-[240px]">
-          <a href="/" className="">
+          <a href="/fm-huddle-landing-page/" className="">
             <Image
-              src="./images/logo.svg"
               alt="Huddler logo"
               fill
               className="object-contain"
+              src="./images/logo.svg"
             />
           </a>
         </div>

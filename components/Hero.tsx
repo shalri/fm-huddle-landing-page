@@ -1,13 +1,15 @@
+"use client";
 import { heroCopy } from "@/lib/data";
 import Button from "./Button";
+import TypingText from "./TypingText";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   const { heading, body } = heroCopy;
   return (
     <section className=" bg-[url(/images/bg-section-top-mobile-1.svg)] bg-no-repeat bg-contain bg-[bottom_center] sm:pb-[285px] pb-[130px] sm:bg-[url(/images/bg-section-top-desktop-1.svg)]">
       <div className="sm:max-w-[1316px] sm:mx-auto sm:mt-[148px] mt-[88px] px-6 text-center">
-        <h1 className="sm:text-[3rem] font-poppins text-2xl font-bold leading-[1.55] text-hud-very-dark-cyan">
-          {heading}
+        <h1 className="sm:text-[3rem] text-pretty font-poppins text-2xl font-bold leading-[1.55] text-hud-very-dark-cyan">
           <TypingText text={heading} />
         </h1>
         <p className="mt-6 sm:mt-5 px-4 text-sm text-hud-very-dark-cyan sm:text-[20px] sm:leading-normal max-w-[650px] mx-auto">{body}</p>
