@@ -6,8 +6,8 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["700"] });
 const open = Open_Sans({subsets: ["latin"], weight: ["400", "600", "700"]})
 
 export const metadata: Metadata = {
-  title: "次に(tsugini) | FScode",
-  description: "A basic NextJS template for Frontend Mentor Challenges",
+  title: "Huddle | FScode",
+  description: "Solution for Huddle Landing Page Challenge from Frontend Mentor",
 };
 
 export default function RootLayout({
