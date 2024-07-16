@@ -15,8 +15,11 @@ export default function Features() {
             </p>
           </div>
         </div>
+
+        <div className="bg-white bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-mobile-1.svg)] sm:bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-desktop-1.svg)] bg-contain  bg-top bg-no-repeat pb-16 pt-[190px] sm:pt-[330px]"></div>
       </div>
-      <div className="bg-white bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-mobile-1.svg)] sm:bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-desktop-1.svg)] bg-contain  bg-top bg-no-repeat pb-16 pt-[190px] sm:pt-[330px]">
+      {/* <div className="bg-white bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-mobile-1.svg)] sm:bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-desktop-1.svg)] bg-contain  bg-top bg-no-repeat pb-16 pt-[190px] sm:pt-[330px]"> */}
+      <div>
         <div className="sm:mx-auto sm:flex sm:max-w-[1256px] sm:items-center sm:justify-evenly">
         <div className="h-[190px] bg-[url(/fm-huddle-landing-page/images/illustration-flowing-conversation.svg)] bg-contain bg-center bg-no-repeat sm:h-[375px] sm:w-[50%]" />
         <div className="order-last sm: px-7 sm:pl-20 text-center text-hud-very-dark-cyan sm:w-[50%] sm:text-left">
