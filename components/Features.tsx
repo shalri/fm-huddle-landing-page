@@ -3,7 +3,7 @@ export default function Features() {
     <section className="">
       <div className="bg-hud-very-pale-blue pt-[84px] pb-0">
         <div className="sm:mx-auto sm:flex sm:max-w-[1236px] sm:items-center sm:justify-evenly sm:pb-[30px]">
-          <div className="h-[210px] bg-[url(/images/illustration-grow-together.svg)] bg-contain bg-center bg-no-repeat sm:h-[425px] sm:w-[50%]" />
+          <div className="h-[210px] bg-[url(/fm-huddle-landing-page/images/illustration-grow-together.svg)] bg-contain bg-center bg-no-repeat sm:h-[425px] sm:w-[50%]" />
           <div className="order-first px-7 text-center text-hud-very-dark-cyan sm:w-[50%] sm:text-left sm:pb-[52px] sm:pt-12">
             <h2 className="mt-[78px] font-poppins text-xl font-bold sm:mt-4 sm:text-[2.5rem]">
               Grow Together
@@ -16,11 +16,11 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="bg-white bg-[url(/images/bg-section-bottom-mobile-1.svg)] sm:bg-[url(/images/bg-section-bottom-desktop-1.svg)] bg-contain  bg-top bg-no-repeat pt-[190px] sm:pt-[330px]" />
+        <div className="bg-white bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-mobile-1.svg)] sm:bg-[url(/fm-huddle-landing-page/images/bg-section-bottom-desktop-1.svg)] bg-contain  bg-top bg-no-repeat pt-[190px] sm:pt-[330px]" />
       </div>
       <div className="sm:pt-5">
         <div className="sm:mx-auto sm:flex sm:max-w-[1256px] sm:items-center sm:justify-evenly">
-        <div className="h-[190px] bg-[url(/images/illustration-flowing-conversation.svg)] bg-contain bg-center bg-no-repeat sm:h-[375px] sm:w-[50%]" />
+        <div className="h-[190px] bg-[url(/fm-huddle-landing-page/images/illustration-flowing-conversation.svg)] bg-contain bg-center bg-no-repeat sm:h-[375px] sm:w-[50%]" />
           <div className="order-last sm: px-7 sm:pl-20 text-center text-hud-very-dark-cyan sm:w-[50%] sm:text-left">
             <h2 className="mt-[78px] font-poppins text-xl font-bold sm:mt-4 sm:text-[2.5rem]">
               Flowing Conversations
@@ -32,12 +32,12 @@ export default function Features() {
             </p>
           </div>
         </div>
-        <div className="sm:pt-[200px] mt-[56px] sm:bg-[url(/images/bg-section-top-desktop-2.svg)] bg-[url(/images/bg-section-top-mobile-2.svg)] bg-contain sm:bg-cover bg-top bg-no-repeat pt-[103px]"/>
+        <div className="sm:pt-[200px] mt-[56px] sm:bg-[url(/fm-huddle-landing-page/images/bg-section-top-desktop-2.svg)] bg-[url(/fm-huddle-landing-page/images/bg-section-top-mobile-2.svg)] bg-contain sm:bg-cover bg-top bg-no-repeat pt-[103px]"/>
       </div>
       <div>
         <div className="sm:bg-hud-very-pale-blue sm:pt-[55px]">
         <div className="sm:pb-10 sm:mx-auto sm:flex sm:max-w-[1256px] sm:items-center sm:justify-evenly">
-          <div className="h-[200px] bg-hud-very-pale-blue bg-[url(/images/illustration-your-users.svg)] bg-contain bg-center bg-no-repeat sm:h-[400px] sm:w-[50%]" />
+          <div className="h-[200px] bg-hud-very-pale-blue bg-[url(/fm-huddle-landing-page/images/illustration-your-users.svg)] bg-contain bg-center bg-no-repeat sm:h-[400px] sm:w-[50%]" />
           <div className="order-first sm: px-7 sm:pl-7 text-center text-hud-very-dark-cyan sm:w-[50%] sm:text-left  bg-hud-very-pale-blue">
             <h2 className="pt-[78px] font-poppins text-xl font-bold sm:pt-4 sm:text-[2.5rem]">
               Your Users
