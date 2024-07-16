@@ -37,10 +37,10 @@ export default function Footer() {
           <p className="mt-4 text-[0.91rem] leading-[1.60] sm:mt-6">
             {contactCopy}
           </p>
-          <p className="mt-[42px] bg-[url(/fm-huddle-landing-page/icon-phone.svg)] bg-[left_center] bg-no-repeat pl-10 text-[0.91rem] sm:mt-[26px]">
+          <p className="mt-[42px] bg-[url(/fm-huddle-landing-page/images/icon-phone.svg)] bg-[left_center] bg-no-repeat pl-10 text-[0.91rem] sm:mt-[26px]">
             Phone: {phone}
           </p>
-          <p className="mt-5 bg-[url(/fm-huddle-landing-page/fm-huddle-landing-page/images/icon-email.svg)] bg-[left_center] bg-no-repeat pl-10 text-[0.8575rem]">
+          <p className="mt-5 bg-[url(/fm-huddle-landing-page/images/icon-email.svg)] bg-[left_center] bg-no-repeat pl-10 text-[0.8575rem]">
             {email}
           </p>
 
