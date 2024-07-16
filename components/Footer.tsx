@@ -56,7 +56,7 @@ export default function Footer() {
                   className=""
                   key={link.page}
                 >
-                  <a href={link.url} className="">
+                  <a href={link.url} aria-label={link.page}>
                     {iconMap[link.icon] &&
                       React.createElement(iconMap[link.icon], {
                         className:
